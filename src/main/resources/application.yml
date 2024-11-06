@@ -2,7 +2,6 @@ spring:
     application:
         name: eureka-diskovery-server
 
-
 server:
     port: 8761
 
@@ -12,4 +11,5 @@ eureka:
         fetch-registry: false 
     server:
         enable-self-preservation: true
+        waitTimeInMsWhenSyncEmpty: 0
 
